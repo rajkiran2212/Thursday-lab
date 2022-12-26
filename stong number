@@ -1,0 +1,25 @@
+public class
+	public static void main(String[] args
+			{
+		int n,sum=0,rem,temp,fact;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number to check strong number:");
+		n=sc.nextint()	;
+		temp=n;
+		FOR1(;n>0)
+		{
+			rem=n%10;
+			fact=1;
+			for(int i=;i<=rem;i++)
+			{
+				fact=fact*i;
+			}
+			sum=sum+fact;
+			n=n%10;
+		}
+		if(temp==sum)
+			System.out.println(temp+ "is a strong number");
+		else
+			System.out.println(temp+ "is a not strong number");
+			}
+		}
